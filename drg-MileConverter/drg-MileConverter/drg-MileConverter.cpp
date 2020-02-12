@@ -3,6 +3,7 @@
 // Date: 20200210
 // Description: To convert miles to kilometers
 
+#include <stdafx.h>
 #include <iostream>
 
 int main()
