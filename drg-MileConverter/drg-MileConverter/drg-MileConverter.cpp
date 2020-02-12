@@ -10,16 +10,16 @@ int main()
    std::cout << "Hello World!\n";
 
    // Stage 2: Variables
-   float miles{};
-   float result;
+   float fltMiles = 0.0;
+   float fltResult = 0.0;
 
    // Stage 4: Input
    std::cout << "Please enter the amount of miles to convert into kilometers: ";
-   std::cin >> miles;
+   std::cin >> fltMiles;
 
    // Stage 3: Processing
-   result = miles * 1.609;
+   fltResult = fltMiles * 1.609;
 
    // Stage 1: Output
-   std::cout << "Your converted kilometers are: " << result;
+   std::cout << "Your converted kilometers are: " << fltResult;
 }
